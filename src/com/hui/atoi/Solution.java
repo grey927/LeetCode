@@ -9,6 +9,7 @@ package com.hui.atoi;
  *
  */
 public class Solution {
+	
     public int atoi(String str) {
        if (null == str || 0 == str.trim().length()) {
            return 0;
